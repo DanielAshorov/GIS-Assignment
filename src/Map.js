@@ -13,7 +13,7 @@ export function Map() {
         "esri/layers/FeatureLayer",
       ],
       { css: true }
-    ).then(async ([MapView, WebMap, esriConfig, FeatureLayer]) => {
+    ).then(([MapView, WebMap, esriConfig, FeatureLayer]) => {
       esriConfig.apiKey = "AAPK690264ca3a0a4605879a96ada6b538d3UX3VQGVVu6g2TGCkGSgODDo6FtzM3bwzDPjCapsyryCZvPzgTba4SZo_aIwNgNl7";
 
       const webmap = new WebMap({
